@@ -14,7 +14,6 @@
 <h2 align="center">NetEnt SlotMachine Frontend </h2>
 Simple slot machine game built with React in frontend and simple nodejs logic with some statistics.this is 
 the frontend reposotry the backend is <a href="https://github.com/usamahamed/SlotMachine-backend">here</a>
----
 
 ## Introduction
 
