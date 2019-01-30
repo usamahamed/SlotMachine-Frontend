@@ -1,0 +1,50 @@
+.balance-text {
+  color: #dddddd;
+  width: 300px;
+  float: left;
+  margin-left: 0px;
+  margin-top: 30px;
+
+  input {
+    width: 123px;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 22px;
+    border-radius: 7px;
+  }
+
+  .label {
+    font-size: 16px;
+  }
+
+  .btn-spin {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ff3f3f;
+    width: 146px;
+    font-size:18px;
+    color: #fdfdfd;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 7px;
+
+    &[disabled] {
+      background-color: #ffb8b8;
+      cursor: wait;
+    }
+  }
+
+  .reel-selector {
+    .select-box {
+      padding: 20px;
+      font-size: 14px;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    width: 25%;
+    float: left;
+    padding: 5px 5px;
+    border-right: 1px solid #dedede;
+  }
+}
